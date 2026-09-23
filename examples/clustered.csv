@@ -1,0 +1,13 @@
+unit,model,score,cluster
+subject-A-0,baseline,0.0,subject-A
+subject-A-0,candidate,0.1,subject-A
+subject-A-1,baseline,0.1,subject-A
+subject-A-1,candidate,0.2,subject-A
+subject-B-0,baseline,0.0,subject-B
+subject-B-0,candidate,0.1,subject-B
+subject-B-1,baseline,0.1,subject-B
+subject-B-1,candidate,0.2,subject-B
+subject-B-2,baseline,0.2,subject-B
+subject-B-2,candidate,0.30000000000000004,subject-B
+subject-C-0,baseline,0.0,subject-C
+subject-C-0,candidate,0.1,subject-C

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.1.0",
+  "n_independent_units": 8,
+  "baseline_mean": 0.72625,
+  "candidate_mean": 0.74,
+  "improvement": 0.013750000000000012,
+  "direction": "higher",
+  "confidence": 0.95,
+  "percentile_bootstrap_ci": [
+    -0.0025000000000000022,
+    0.028750000000000026
+  ],
+  "two_sided_sign_flip_p": 0.1875,
+  "test_mode": "exact",
+  "test_draws": 256,
+  "bootstrap_resamples": 10000,
+  "seed": 7,
+  "wins": 6,
+  "ties": 0,
+  "losses": 2,
+  "warnings": [
+    "Fewer than 10 independent units: bootstrap intervals can be unstable or degenerate."
+  ],
+  "assumptions": "Independent units; sign exchangeability under the null. Percentile bootstrap is approximate. No multiplicity correction or causal claim.",
+  "input_sha256": "48cb4b08c1255980154c7803c99cd2ab2dc46b90e05ae43afe64bf65e66db09c",
+  "baseline": "baseline",
+  "candidate": "candidate",
+  "estimand": "equal-unit mean improvement",
+  "rows_per_independent_unit": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

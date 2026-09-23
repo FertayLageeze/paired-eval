@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paired-eval"
+version = "0.1.0"
+description = "Strictly aligned paired comparisons with bootstrap intervals and sign-flip tests"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yongjian Wang"}]
+dependencies = []
+
+[project.scripts]
+paired-eval = "paired_eval.cli:main"
+
+[project.urls]
+Repository = "https://github.com/FertayLageeze/paired-eval"
+Issues = "https://github.com/FertayLageeze/paired-eval/issues"
+
+[tool.setuptools.packages.find]
+include = ["paired_eval*"]

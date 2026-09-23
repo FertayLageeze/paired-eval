@@ -1,0 +1,17 @@
+unit,model,score
+seed-0,baseline,0.71
+seed-0,candidate,0.73
+seed-1,baseline,0.74
+seed-1,candidate,0.72
+seed-2,baseline,0.7
+seed-2,candidate,0.74
+seed-3,baseline,0.75
+seed-3,candidate,0.76
+seed-4,baseline,0.72
+seed-4,candidate,0.73
+seed-5,baseline,0.69
+seed-5,candidate,0.72
+seed-6,baseline,0.77
+seed-6,candidate,0.75
+seed-7,baseline,0.73
+seed-7,candidate,0.77
